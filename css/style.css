@@ -181,7 +181,7 @@ p {
   font-size: 10px;
   text-transform: uppercase;
   letter-spacing: 0.25em;
-  margin: 0 2px 0 1px;
+  margin: 0 2px 0 2px;
 }
 
 .main-item-logo {
@@ -209,6 +209,8 @@ p {
   width: calc((100vw - 48px) / 2);
   height: calc((100vw - 48px) / 2);
   margin: 16px 16px 0 16px;
+  background-color: #ffffff;
+  border-radius: 17px;
 }
 
 .work:nth-child(n + 2) {
