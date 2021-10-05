@@ -1,5 +1,3 @@
-import './styles/styles.css';
-
 // Работа углового меню:
 const openCornerMenu = document.querySelector('.corner-menu-button');
 const closeCornerMenu = document.querySelector('.corner-menu-button-close');

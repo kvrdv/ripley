@@ -1,8 +1,6 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/dmj0h7q7ttrdr0tn?svg=true)](https://ci.appveyor.com/project/kvrdv/ripley)
-
-[Visit page](https://kvrdv.github.io/Ripley/ 'Ripley')
-
 ## Ripley
+
+[Visit page](https://kvrdv.github.io/ripley/ 'Ripley')
 
 ### Nextgen voice assistant landing website
 

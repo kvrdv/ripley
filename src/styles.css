@@ -1,33 +1,31 @@
-@import '~normalize.css';
-
 @font-face {
   font-family: 'Roboto';
-  src: url('../fonts/roboto/Roboto-Regular.ttf') format('opentype');
+  src: url('./fonts/roboto/Roboto-Regular.ttf') format('opentype');
 }
 
 @font-face {
   font-family: 'Roboto-Medium';
-  src: url('../fonts/roboto/Roboto-Medium.ttf') format('opentype');
+  src: url('./fonts/roboto/Roboto-Medium.ttf') format('opentype');
 }
 
 @font-face {
   font-family: 'Roboto-Bold';
-  src: url('../fonts/roboto/Roboto-Bold.ttf') format('opentype');
+  src: url('./fonts/roboto/Roboto-Bold.ttf') format('opentype');
 }
 
 @font-face {
   font-family: 'Roboto-BlackItalic';
-  src: url('../fonts/roboto/Roboto-BlackItalic.ttf') format('opentype');
+  src: url('./fonts/roboto/Roboto-BlackItalic.ttf') format('opentype');
 }
 
 @font-face {
   font-family: 'Raleway';
-  src: url('../fonts/raleway/Raleway-Regular.ttf') format('opentype');
+  src: url('./fonts/raleway/Raleway-Regular.ttf') format('opentype');
 }
 
 @font-face {
   font-family: 'Raleway-Medium';
-  src: url('../fonts/raleway/Raleway-Medium.ttf') format('opentype');
+  src: url('./fonts/raleway/Raleway-Medium.ttf') format('opentype');
 }
 
 body {
