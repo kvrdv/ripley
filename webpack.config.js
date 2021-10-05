@@ -75,7 +75,18 @@ module.exports = {
       },
       {
         test: /\.(png|svg|ttf)$/,
-        type: 'asset',
+        type: 'asset/resource',
+      },
+      {
+        test: /\.svg$/,
+        use: [
+          {
+            loader: 'svg-url-loader',
+            options: {
+              limit: 10000,
+            },
+          },
+        ],
       },
       {
         test: /\.m?js$/,
@@ -96,7 +107,7 @@ module.exports = {
             presets: ['@babel/preset-env', '@babel/preset-typescript'],
           },
         },
-      },      
+      },
     ],
   },
 };
